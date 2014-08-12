@@ -65,8 +65,8 @@ str(adata)</code></pre>
 ##  $ date    : Factor w/ 61 levels &quot;2012-10-01&quot;,&quot;2012-10-02&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ interval: int  0 5 10 15 20 25 30 35 40 45 ...</code></pre>
 </div>
-<div id="what-is-mean-total-number-of-steps-taken-per-day" class="section level2">
-<h2>What is mean total number of steps taken per day?</h2>
+<div id="what-is-the-total-number-of-steps-taken-per-day" class="section level2">
+<h2>What is the total number of steps taken per day?</h2>
 <p>The following histogram displays the total number of steps taken per day, ignoring missing values.</p>
 <pre class="r"><code>adata.date &lt;- aggregate(adata[1],by=adata[2],FUN=sum,na.rm=TRUE)
 hist(adata.date$steps,

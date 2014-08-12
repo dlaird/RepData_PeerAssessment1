@@ -16,7 +16,7 @@ str(adata)
 ##  $ interval: int  0 5 10 15 20 25 30 35 40 45 ...
 ```
 
-## What is mean total number of steps taken per day?
+## What is the total number of steps taken per day?
 The following histogram displays the total number of steps taken per day, ignoring missing values.
 
 ```r
