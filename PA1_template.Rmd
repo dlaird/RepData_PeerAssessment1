@@ -13,7 +13,7 @@ adata <- read.csv(file)
 str(adata)
 ```
 
-## What is mean total number of steps taken per day?
+## What is the total number of steps taken per day?
 The following histogram displays the total number of steps taken per day, ignoring missing values.
 ```{r}
 adata.date <- aggregate(adata[1],by=adata[2],FUN=sum,na.rm=TRUE)
